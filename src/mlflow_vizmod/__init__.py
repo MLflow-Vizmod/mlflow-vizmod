@@ -180,5 +180,5 @@ def load_model(model_uri, style=None):
         "serialization_format", SERIALIZATION_FORMAT_CLOUDPICKLE
     )
     return current_style.Style(
-        artifact_uri=z_model_artifacts_path,
+        artifact_uri=vizmod_model_artifacts_path,
     )

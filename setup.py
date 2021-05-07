@@ -2,7 +2,7 @@ from setuptools import setup, find_namespace_packages
 
 
 APP_NAME = "mlflow_vizmod"
-VERSION = "1.1.1"
+VERSION = "1.1.3"
 LICENSE = "MIT"
 AUTHOR = "James Hibbard, Andrew Bauman"
 DESCRIPTION = "MLflow model flavor for managing visualizations as models"
